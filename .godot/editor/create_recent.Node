@@ -1,0 +1,10 @@
+AnimationPlayer
+Sprite2D
+BackBufferCopy
+ParallaxBackground
+CanvasModulate
+CollisionShape2D
+AnimatedSprite2D
+CharacterBody2D
+Window
+Node2D
