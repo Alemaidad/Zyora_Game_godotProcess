@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1760963632
+::res://::1760979874
 icon.svg::CompressedTexture2D::7548255359254964816::1760302343::1760302348::1::::<><><>0<>0<>57a3371feea8f75dbfa75be4f9ef9223<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 mapa.tscn::PackedScene::3822569336027321158::1760889407::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1760814090
@@ -411,7 +411,6 @@ Door1.png::CompressedTexture2D::3373597883052581875::1760301876::1760546422::1::
 Door2.png::CompressedTexture2D::7994797616363131334::1760301876::1760546422::1::::<><><>0<>0<>e576854ae6e264b84147186428776559<>res://.godot/imported/Door2.png-5540072831287ee9e03762e116d7daab.ctex::
 DoubleDoor1.png::CompressedTexture2D::6698906518213921534::1760301876::1760546422::1::::<><><>0<>0<>d276a2ecebbc13e671897ff8c8fd2c59<>res://.godot/imported/DoubleDoor1.png-6f90d952aed0913b5123305dc3ef6813.ctex::
 DoubleDoor2.png::CompressedTexture2D::9058093260485662976::1760301876::1760546422::1::::<><><>0<>0<>f50d3f6d2d135d9afd3fdb77d4c00db0<>res://.godot/imported/DoubleDoor2.png-52933acb5839b087c992bac54a7c1084.ctex::
-::res://Jugador/::1760891836
-personaje.gd::GDScript::8299789253204613326::1760891836::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
-personaje.tscn::PackedScene::3903043020251697407::1760890628::0::1::::<><><>0<>0<><>::uid://dwjhnmb3288eo::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Idle_without_shadow.png<>uid://dqiqk00h4isn3::::res://Jugador/personaje.gd
-::res://Zyora_gameGodotProcess/::1760891736
+::res://Jugador/::1760973355
+personaje.gd::GDScript::8299789253204613326::1760973355::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
+personaje.tscn::PackedScene::3903043020251697407::1760972337::0::1::::<><><>0<>0<><>::uid://dwjhnmb3288eo::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Idle_without_shadow.png<>uid://dqiqk00h4isn3::::res://Jugador/personaje.gd<>uid://m2d06trwno6w::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Run_without_shadow.png<>uid://cbgqsvwfiwlyp::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Walk_without_shadow.png<>uid://d0wdmsg5bfpc7::::res://Jugador/animaciones.gd
