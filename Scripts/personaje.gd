@@ -6,6 +6,8 @@ extends CharacterBody2D
 func _process(delta):
 	
 	var move = false
+	var healt = 100
+	
 	
 	
 	#Animacion de caminar
@@ -35,23 +37,8 @@ func _process(delta):
 		move = true
 		#animacion de personaje quieto
 	if not move:
-		match Sprite.animation:
-			"walk_left":
-				Sprite.play("static_left")
-			"walk_rigth":
-				Sprite.play("static_rigth")
-			"walk_front":
-				Sprite.play("static_front")
-			"walk_back":
-				Sprite.play("static_back")
-			"run_left":
-				Sprite.play("static_left")
-			"run_rigth":
-				Sprite.play("static_rigth")
-			"run_back":
-				Sprite.play("static_back")
-			"run_front":
-				Sprite.play("static_front")
+		Sprite.play("static_" + Sprite.animation.split("_")[1])
+
 
 func _physics_process(delta):
 	
@@ -66,7 +53,7 @@ func _physics_process(delta):
 		if Horizontal !=0:
 			velocity.x = (speed * 2) * Horizontal
 		if  vertical !=0:
-			velocity.y = (speed * 2 ) * vertical
+			velocity.y = (speed * 2) * vertical
 	move_and_slide()
 	
 	

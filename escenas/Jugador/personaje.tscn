@@ -1,7 +1,7 @@
 [gd_scene load_steps=103 format=3 uid="uid://bvuwsv3pp3otr"]
 
 [ext_resource type="Texture2D" uid="uid://dwjhnmb3288eo" path="res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Idle_without_shadow.png" id="1_4ofd1"]
-[ext_resource type="Script" uid="uid://dqiqk00h4isn3" path="res://Jugador/personaje.gd" id="1_dnfe8"]
+[ext_resource type="Script" uid="uid://dqiqk00h4isn3" path="res://Scripts/personaje.gd" id="1_dnfe8"]
 [ext_resource type="Texture2D" uid="uid://m2d06trwno6w" path="res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Run_without_shadow.png" id="2_4fr44"]
 [ext_resource type="Texture2D" uid="uid://cbgqsvwfiwlyp" path="res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Walk_without_shadow.png" id="4_82nit"]
 
