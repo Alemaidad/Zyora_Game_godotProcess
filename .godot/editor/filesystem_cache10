@@ -1,5 +1,5 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1761257128
+::res://::1761257423
 icon.svg::CompressedTexture2D::7548255359254964816::1761176452::1761176452::1::::<><><>0<>0<>57a3371feea8f75dbfa75be4f9ef9223<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1761237791
 ::res://addons/dialogue_manager/::1761237793
@@ -77,7 +77,11 @@ dialogue_cache.gd::GDScript::9130733358047983146::1761237793::0::1::::DMCache<>N
 ::res://addons/dialogue_manager/views/::1761237793
 main_view.gd::GDScript::5365867961863611872::1761237793::0::1::::<>Control<><>0<>1<><>::
 main_view.tscn::PackedScene::4884668666408697448::1761237793::0::1::::<><><>0<>0<><>::uid://cipjcc7bkh1pc::::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>uid://klpiq4tk3t7a::::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cnm67htuohhlo::::res://addons/dialogue_manager/assets/banner.png<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
-::res://Assets/::1761229754
+::res://Assets/::1761259136
+::res://Assets/determination-letter-game/::1761258443
+determination.ttf::FontFile::3874369408407084838::1761258443::1761259149::1::::<><><>0<>0<>01275a83574cf77fc3cf7c093b93ed71<>res://.godot/imported/determination.ttf-d618e4e06a180f3569031170c35bbd0e.fontdata::
+license.txt::TextFile::-1::1761258443::0::1::::<><><>0<>0<><>::
+readme.txt::TextFile::-1::1761258443::0::1::::<><><>0<>0<><>::
 ::res://Assets/Jugador/::1761176452
 ::res://Assets/Jugador/Swordsman_lvl1/::1761176452
 ::res://Assets/Jugador/Swordsman_lvl1/Parts/::1761176452
@@ -492,13 +496,15 @@ pixil-layer-1.png::CompressedTexture2D::7910695765161655124::1761229704::1761229
 pixil-layer-2.png::CompressedTexture2D::3935089480940493956::1761229704::1761229758::1::::<><><>0<>0<>9db810613653685b15fd62f6bd556eb8<>res://.godot/imported/pixil-layer-2.png-f45355cd20ec711f1a961bbe0dfbdbfd.ctex::
 pixil-layer-3.png::CompressedTexture2D::1891482778910042030::1761229704::1761229758::1::::<><><>0<>0<>ed35f45c7f0d3288341bbaa594bb3f81<>res://.godot/imported/pixil-layer-3.png-c5c9a13036f5908b2dc4e8e5dce9a2da.ctex::
 pixil-layer-4.png::CompressedTexture2D::2629259999005327423::1761229704::1761229758::1::::<><><>0<>0<>67bac9152b2028c722d215700aaeeb77<>res://.godot/imported/pixil-layer-4.png-f865ccda51d9a877d4460bbbee28ed43.ctex::
+::res://Assets/ui medieval/::1761259052
+MediavelFree.png::CompressedTexture2D::8003544167023752634::1761259046::1761259149::1::::<><><>0<>0<>11e69bc7ee796b45e803b01587f7fc6e<>res://.godot/imported/MediavelFree.png-f8f276ffb58a32da7c28cfabee585955.ctex::
 ::res://Dialogos/::1761252202
 village_dialog.dialogue::Resource::8665741987799701701::1761252202::1761252202::1::::<><><>0<>0<>517d0c9a7f009868753a066baf527884<>res://.godot/imported/village_dialog.dialogue-49180e0c25890dba187186695a18affa.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://escenas/::1761257128
-menu.tscn::PackedScene::1338075434291269696::1761257098::0::1::::<><><>0<>0<><>::
+::res://escenas/::1761257151
 ::res://escenas/Jugador/::1761252202
 personaje.tscn::PackedScene::3903043020251697407::1761252202::0::1::::<><><>0<>0<><>::uid://dwjhnmb3288eo::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Idle_without_shadow.png<>uid://dqiqk00h4isn3::::res://Scripts/personaje.gd<>uid://m2d06trwno6w::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Run_without_shadow.png<>uid://cbgqsvwfiwlyp::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Walk_without_shadow.png
-::res://escenas/Menu/::0
+::res://escenas/Menu/::1761257151
+menu.tscn::PackedScene::1338075434291269696::1761257098::0::1::::<><><>0<>0<><>::
 ::res://Scripts/::1761252856
 personaje.gd::GDScript::8299789253204613326::1761227578::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
 Variables.gd::GDScript::9165939615607482554::1761252819::0::1::::<>Node<><>0<>0<><>::
