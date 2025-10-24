@@ -1,4 +1,13 @@
-[gd_scene load_steps=0 format=3 uid="uid://tcf53ndfh16s"]
+[gd_scene load_steps=4 format=3 uid="uid://tcf53ndfh16s"]
+
+[ext_resource type="Texture2D" uid="uid://dma8g51t06qtm" path="res://Assets/ui medieval/MediavelFree.png" id="1_h8afx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h8afx"]
+atlas = ExtResource("1_h8afx")
+region = Rect2(81, 1, 14, 14)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ty0lf"]
+atlas = SubResource("AtlasTexture_h8afx")
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -7,45 +16,32 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 44.0
 offset_top = 9.0
-offset_right = 44.0
+offset_right = 3.0
 offset_bottom = 9.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Vboxbotones" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.384
-anchor_right = 0.5
-anchor_bottom = 0.39100003
-offset_left = -176.0
-offset_top = -136.832
-offset_right = 223.0
-offset_bottom = 209.63197
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="Button" type="Button" parent="."]
+texture_filter = 1
+layout_direction = 4
 layout_mode = 0
-offset_left = 427.0
-offset_top = 151.0
-offset_right = 727.0
-offset_bottom = 225.0
+offset_left = 145.0
+offset_top = 129.0
+offset_right = 287.0
+offset_bottom = 230.0
+
+[node name="Button" type="Button" parent="Vboxbotones"]
+layout_mode = 2
+action_mode = 0
 text = "JUGAR"
+icon = SubResource("AtlasTexture_ty0lf")
+text_overrun_behavior = 2
+expand_icon = true
 
-[node name="Button2" type="Button" parent="."]
-layout_mode = 0
-offset_left = 424.0
-offset_top = 267.0
-offset_right = 724.0
-offset_bottom = 341.0
+[node name="Button2" type="Button" parent="Vboxbotones"]
+layout_mode = 2
 text = "CONFIGURACION"
 
-[node name="Button3" type="Button" parent="."]
-layout_mode = 0
-offset_left = 421.0
-offset_top = 380.0
-offset_right = 721.0
-offset_bottom = 451.0
+[node name="Button3" type="Button" parent="Vboxbotones"]
+layout_mode = 2
 text = "SALIR"
