@@ -1,16 +1,16 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1761602215
+::res://::1761605751
 icon.svg::CompressedTexture2D::7548255359254964816::1761225889::1761225889::1::::<><><>0<>0<>57a3371feea8f75dbfa75be4f9ef9223<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1761257316
 ::res://addons/dialogue_manager/::1761257316
 constants.gd::GDScript::4240262336831424009::1761257316::0::1::::DMConstants<>RefCounted<><>0<>0<><>::
-dialogue_label.gd::GDScript::480611383085669467::1761257316::0::1::::DialogueLabel<>RichTextLabel<><>0<>1<><>::
+dialogue_label.gd::GDScript::480611383085669467::1761257316::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg<>0<>1<><>::
 dialogue_label.tscn::PackedScene::5518490004210093266::1761257316::0::1::::<><><>0<>0<><>::uid://g32um0mltv5d::::res://addons/dialogue_manager/dialogue_label.gd
 dialogue_line.gd::GDScript::1208905219044177333::1761257316::0::1::::DialogueLine<>RefCounted<><>0<>0<><>::
 dialogue_manager.gd::GDScript::6774079045493014679::1761257316::0::1::::<>Node<><>0<>0<><>::
-dialogue_resource.gd::GDScript::7268423792262407282::1761257316::0::1::::DialogueResource<>Resource<><>0<>1<><>::
+dialogue_resource.gd::GDScript::7268423792262407282::1761257316::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg<>0<>1<><>::
 dialogue_response.gd::GDScript::5668140482552713515::1761257316::0::1::::DialogueResponse<>RefCounted<><>0<>0<><>::
-dialogue_responses_menu.gd::GDScript::2520211531407682507::1761257316::0::1::::DialogueResponsesMenu<>Container<><>0<>0<><>::
+dialogue_responses_menu.gd::GDScript::2520211531407682507::1761257316::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg<>0<>0<><>::
 editor_translation_parser_plugin.gd::GDScript::6952218891186463517::1761257316::0::1::::DMTranslationParserPlugin<>EditorTranslationParserPlugin<><>0<>0<><>::
 export_plugin.gd::GDScript::1265275163198105838::1761257316::0::1::::DMExportPlugin<>EditorExportPlugin<><>0<>0<><>::
 import_plugin.gd::GDScript::7696928728755687928::1761257316::0::1::::DMImportPlugin<>EditorImportPlugin<><>0<>1<><>::
@@ -496,7 +496,7 @@ DoubleDoor2.png::CompressedTexture2D::9058093260485662976::1761225889::176122588
 ::res://Assets/Map/objets-/::1761593359
 Plants.png::CompressedTexture2D::7619302549528101402::1761593296::1761593359::1::::<><><>0<>0<>442d28a1b9ecb3c4ca3bdbcea952a59a<>res://.godot/imported/Plants.png-7418033366db234addb6d7a24ba3c84b.ctex::
 Supplies.png::CompressedTexture2D::5406592971289895341::1761593296::1761593359::1::::<><><>0<>0<>46806aba1a3b02247c54d64fc1c4080d<>res://.godot/imported/Supplies.png-5f7b09ae377705822c63216b682b207c.ctex::
-::res://Assets/menu/::1761604643
+::res://Assets/menu/::1761604648
 cargar partida.png::CompressedTexture2D::4944819305677913791::1761602325::1761602330::1::::<><><>0<>0<>90952aa609af9680b1a315a69507e836<>res://.godot/imported/cargar partida.png-15d3f9ff791bc78eaf268d3a2e7007d1.ctex::
 configuracion.png::CompressedTexture2D::1199479224220052103::1761603315::1761603322::1::::<><><>0<>0<>e1ca2784d9635b00cbafd861e8289135<>res://.godot/imported/configuracion.png-3a4fe9ed227fd766637c0b82921985ef.ctex::
 fondo.png::CompressedTexture2D::8737164647492996186::1761600637::1761600640::1::::<><><>0<>0<>d838fb7a6d61f32b84fa7bf3aef0603e<>res://.godot/imported/fondo.png-a51a84b41589228470bbf2b94aa3af1d.ctex::
@@ -534,8 +534,8 @@ combate.tscn::PackedScene::2654631041851570472::1761593297::0::1::::<><><>0<>0<>
 personaje.tscn::PackedScene::3903043020251697407::1761257316::0::1::::<><><>0<>0<><>::uid://dwjhnmb3288eo::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Idle_without_shadow.png<>uid://dqiqk00h4isn3::::res://Scripts/personaje.gd<>uid://m2d06trwno6w::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Run_without_shadow.png<>uid://cbgqsvwfiwlyp::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/Swordsman_lvl1_Walk_without_shadow.png
 ::res://escenas/Mapa/::1761593297
 map.tscn::PackedScene::1750739959530638782::1761593297::0::1::::<><><>0<>0<><>::uid://mr2m7geasume::::res://Assets/Map/1 Tiles/FieldsTileset.png<>uid://dhogau1gf2jpj::::res://Assets/Map/1.1 Tiles/Tileset2.png<>uid://dgs32gthd5mbi::::res://Assets/Map/objets-/Plants.png<>uid://cja82csyp0qfl::::res://Assets/Map/objets-/Supplies.png<>uid://8r27l1wf4t77::::res://Assets/Map/1 Tiles/FieldsTilesetTest.png<>uid://c0w7stdnkd4m2::::res://Assets/Map/2 Objects/7 House/4.png
-::res://escenas/Menu/::1761604478
-menu.tscn::PackedScene::1338075434291269696::1761604478::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bkth0db5sx8mu::::res://Assets/menu/salir.png<>uid://rdbiog01ymrv::::res://Assets/menu/configuracion.png<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png
+::res://escenas/Menu/::1761604848
+menu.tscn::PackedScene::1338075434291269696::1761604848::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://dsg0uldyac7u8::::res://Assets/menu/titulo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bkth0db5sx8mu::::res://Assets/menu/salir.png<>uid://rdbiog01ymrv::::res://Assets/menu/configuracion.png<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png
 ::res://Scripts/::1761593297
 combate.gd::GDScript::-1::1761593297::0::1::::<>Node2D<><>0<>0<><>::
 personaje.gd::GDScript::8299789253204613326::1761593297::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
