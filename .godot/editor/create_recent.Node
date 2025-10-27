@@ -1,14 +1,15 @@
-Camera2D
-TileMapLayer
-TextureButton
-Sprite2D
+Label
 AnimatedSprite2D
 TextureRect
+TextureButton
+Label      - Matches the "text" keyword.
+Button
 Control
+TextureProgressBar
+ProgressBar
+Sprite2D
+Node2D
+CharacterBody2D
+Camera2D
+TileMapLayer
 RichTextLabel
-PanelContainer
-AnimationPlayer
-BackBufferCopy
-ParallaxBackground
-CanvasModulate
-CollisionShape2D

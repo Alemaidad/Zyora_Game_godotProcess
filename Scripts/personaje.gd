@@ -3,11 +3,10 @@ extends CharacterBody2D
 @onready var Sprite = $Animaciones
 @export var speed = 100
 
+
 func _process(delta):
 	
 	var move = false
-	var healt = 100
-	
 	
 	
 	#Animacion de caminar
