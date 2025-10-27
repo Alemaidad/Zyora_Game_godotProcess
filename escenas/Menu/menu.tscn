@@ -1,47 +1,161 @@
-[gd_scene load_steps=4 format=3 uid="uid://tcf53ndfh16s"]
+[gd_scene load_steps=25 format=3 uid="uid://tcf53ndfh16s"]
 
-[ext_resource type="Texture2D" uid="uid://dma8g51t06qtm" path="res://Assets/ui medieval/MediavelFree.png" id="1_h8afx"]
+[ext_resource type="Texture2D" uid="uid://dwql3b71r3v35" path="res://Assets/menu/fondo.png" id="1_qmo4h"]
+[ext_resource type="Texture2D" uid="uid://dsg0uldyac7u8" path="res://Assets/menu/titulo.png" id="2_twnyl"]
+[ext_resource type="Texture2D" uid="uid://bosxxriibkv2q" path="res://Assets/menu/jugar.png" id="2_ui3ti"]
+[ext_resource type="Texture2D" uid="uid://bkth0db5sx8mu" path="res://Assets/menu/salir.png" id="3_qmo4h"]
+[ext_resource type="Texture2D" uid="uid://rdbiog01ymrv" path="res://Assets/menu/configuracion.png" id="3_snlmn"]
+[ext_resource type="Texture2D" uid="uid://ccpkpl7o6kdm2" path="res://Assets/menu/cargar partida.png" id="4_17x2k"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_h8afx"]
-atlas = ExtResource("1_h8afx")
-region = Rect2(81, 1, 14, 14)
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ax2mt"]
+texture = ExtResource("2_twnyl")
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ty0lf"]
-atlas = SubResource("AtlasTexture_h8afx")
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_geybd"]
+texture = ExtResource("2_twnyl")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5kvyy"]
+texture = ExtResource("3_snlmn")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_abwja"]
+texture = ExtResource("3_snlmn")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5uejm"]
+texture = ExtResource("3_snlmn")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u43na"]
+texture = ExtResource("3_snlmn")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_twnyl"]
+texture = ExtResource("3_qmo4h")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8iopd"]
+texture = ExtResource("3_qmo4h")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eign5"]
+texture = ExtResource("3_qmo4h")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_snlmn"]
+texture = ExtResource("3_qmo4h")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_qmo4h"]
+texture = ExtResource("2_ui3ti")
+modulate_color = Color(0.8784058, 0.8784058, 0.8784058, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ui3ti"]
+texture = ExtResource("2_ui3ti")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_17x2k"]
+texture = ExtResource("2_ui3ti")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_xd55c"]
+texture = ExtResource("2_ui3ti")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hgeqp"]
+texture = ExtResource("4_17x2k")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_iaie5"]
+texture = ExtResource("4_17x2k")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n3oxi"]
+texture = ExtResource("4_17x2k")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g740e"]
+texture = ExtResource("4_17x2k")
 
 [node name="Menu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 44.0
-offset_top = 9.0
+offset_left = -3.0
+offset_top = 6.0
 offset_right = 3.0
 offset_bottom = 9.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = -2.0
+offset_right = 1290.0
+offset_bottom = 716.0
+texture = ExtResource("1_qmo4h")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="TextureRect"]
+layout_mode = 0
+offset_left = 453.0
+offset_top = 129.0
+offset_right = 775.0
+offset_bottom = 248.0
+theme_override_styles/normal = SubResource("StyleBoxTexture_ax2mt")
+theme_override_styles/focus = SubResource("StyleBoxTexture_geybd")
+
+[node name="configuracionButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 17.0
+offset_right = 122.0
+offset_bottom = 103.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_5kvyy")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_abwja")
+theme_override_styles/hover = SubResource("StyleBoxTexture_5uejm")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_u43na")
+text = "-
+
+"
+
+[node name="salirButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1127.0
+offset_top = 18.0
+offset_right = 1278.0
+offset_bottom = 95.0
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_twnyl")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_8iopd")
+theme_override_styles/hover = SubResource("StyleBoxTexture_eign5")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_snlmn")
+text = "-
+
+
+"
+
 [node name="Vboxbotones" type="VBoxContainer" parent="."]
 texture_filter = 1
 layout_direction = 4
 layout_mode = 0
-offset_left = 145.0
-offset_top = 129.0
-offset_right = 287.0
-offset_bottom = 230.0
+offset_left = 442.0
+offset_top = 382.0
+offset_right = 782.0
+offset_bottom = 699.0
+theme_override_constants/separation = 10
 
-[node name="Button" type="Button" parent="Vboxbotones"]
+[node name="jugarButton" type="Button" parent="Vboxbotones"]
 layout_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_qmo4h")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_ui3ti")
+theme_override_styles/hover = SubResource("StyleBoxTexture_17x2k")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_xd55c")
 action_mode = 0
-text = "JUGAR"
-icon = SubResource("AtlasTexture_ty0lf")
+text = "-
+
+
+"
 text_overrun_behavior = 2
 expand_icon = true
 
-[node name="Button2" type="Button" parent="Vboxbotones"]
+[node name="cargarPartidaButton" type="Button" parent="Vboxbotones"]
 layout_mode = 2
-text = "CONFIGURACION"
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxTexture_hgeqp")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_iaie5")
+theme_override_styles/hover = SubResource("StyleBoxTexture_n3oxi")
+theme_override_styles/disabled = SubResource("StyleBoxTexture_g740e")
+text = "-
 
-[node name="Button3" type="Button" parent="Vboxbotones"]
-layout_mode = 2
-text = "SALIR"
+
+"

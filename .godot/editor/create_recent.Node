@@ -1,9 +1,10 @@
 Label
-AnimatedSprite2D
-TextureRect
-TextureButton
-Label      - Matches the "text" keyword.
+HBoxContainer
 Button
+TextureButton
+TextureRect
+AnimatedSprite2D
+Label      - Matches the "text" keyword.
 Control
 TextureProgressBar
 ProgressBar
@@ -11,5 +12,3 @@ Sprite2D
 Node2D
 CharacterBody2D
 Camera2D
-TileMapLayer
-RichTextLabel
