@@ -35,6 +35,10 @@ func _process(delta):
 		Sprite.play("walk_front")
 		move = true
 		#animacion de personaje quieto
+		
+	
+	if Input.is_action_pressed("Left") and Input.is_action_pressed("rigth"):
+		Sprite.play("static_front")
 	if not move:
 		Sprite.play("static_" + Sprite.animation.split("_")[1])
 
