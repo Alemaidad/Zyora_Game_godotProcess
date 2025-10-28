@@ -12,3 +12,17 @@ BackBufferCopy
 ParallaxBackground
 CanvasModulate
 AnimatedSprite2D
+Label
+HBoxContainer
+Button
+TextureButton
+TextureRect
+AnimatedSprite2D
+Label      - Matches the "text" keyword.
+Control
+TextureProgressBar
+ProgressBar
+Sprite2D
+Node2D
+CharacterBody2D
+Camera2D
