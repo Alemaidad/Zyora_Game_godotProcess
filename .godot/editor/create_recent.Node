@@ -1,14 +1,13 @@
-Label
-HBoxContainer
-Button
-TextureButton
-TextureRect
-AnimatedSprite2D
-Label      - Matches the "text" keyword.
-Control
-TextureProgressBar
-ProgressBar
-Sprite2D
+TileMapLayer
+TileMap
+CollisionShape2D
+Area2D
 Node2D
+AnimationPlayer
+Sprite2D
+BackBufferCopy
+ParallaxBackground
+CanvasModulate
+AnimatedSprite2D
 CharacterBody2D
-Camera2D
+Window

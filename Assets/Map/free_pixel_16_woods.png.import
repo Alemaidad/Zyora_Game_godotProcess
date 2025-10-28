@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xbc18e4v4eqm"
-path="res://.godot/imported/FieldsTile_13.png-a9c940a3c07008b7dc55596e81ff503f.ctex"
+uid="uid://dis5leeepkx5r"
+path="res://.godot/imported/free_pixel_16_woods.png-aea5bcaef703780e20d1dcdb2458ad35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Map/1 Tiles/FieldsTile_13.png"
-dest_files=["res://.godot/imported/FieldsTile_13.png-a9c940a3c07008b7dc55596e81ff503f.ctex"]
+source_file="res://Assets/Map/free_pixel_16_woods.png"
+dest_files=["res://.godot/imported/free_pixel_16_woods.png-aea5bcaef703780e20d1dcdb2458ad35.ctex"]
 
 [params]
 
