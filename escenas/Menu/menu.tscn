@@ -98,6 +98,7 @@ offset_left = 17.0
 offset_top = 17.0
 offset_right = 122.0
 offset_bottom = 103.0
+focus_mode = 0
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxTexture_5kvyy")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_abwja")
@@ -113,6 +114,7 @@ offset_left = 1127.0
 offset_top = 18.0
 offset_right = 1278.0
 offset_bottom = 95.0
+focus_mode = 0
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxTexture_twnyl")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_8iopd")
@@ -124,17 +126,20 @@ text = "-
 "
 
 [node name="Vboxbotones" type="VBoxContainer" parent="."]
+self_modulate = Color(1, 1, 1, 0)
 texture_filter = 1
-layout_direction = 4
+clip_contents = true
 layout_mode = 0
 offset_left = 442.0
 offset_top = 382.0
 offset_right = 782.0
 offset_bottom = 699.0
 theme_override_constants/separation = 10
+alignment = 1
 
 [node name="jugarButton" type="Button" parent="Vboxbotones"]
 layout_mode = 2
+focus_mode = 0
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxTexture_qmo4h")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_ui3ti")
@@ -149,12 +154,15 @@ text_overrun_behavior = 2
 expand_icon = true
 
 [node name="cargarPartidaButton" type="Button" parent="Vboxbotones"]
+modulate = Color(1, 1, 1, 0.30588236)
 layout_mode = 2
+focus_mode = 0
 mouse_default_cursor_shape = 2
 theme_override_styles/normal = SubResource("StyleBoxTexture_hgeqp")
 theme_override_styles/pressed = SubResource("StyleBoxTexture_iaie5")
 theme_override_styles/hover = SubResource("StyleBoxTexture_n3oxi")
 theme_override_styles/disabled = SubResource("StyleBoxTexture_g740e")
+disabled = true
 text = "-
 
 
