@@ -1,16 +1,16 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1761696554
+::res://::1761758393
 icon.svg::CompressedTexture2D::7548255359254964816::1761225889::1761225889::1::::<><><>0<>0<>57a3371feea8f75dbfa75be4f9ef9223<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1761257316
 ::res://addons/dialogue_manager/::1761257316
 constants.gd::GDScript::4240262336831424009::1761257316::0::1::::DMConstants<>RefCounted<><>0<>0<><>::
-dialogue_label.gd::GDScript::480611383085669467::1761257316::0::1::::DialogueLabel<>RichTextLabel<><>0<>1<><>::
+dialogue_label.gd::GDScript::480611383085669467::1761257316::0::1::::DialogueLabel<>RichTextLabel<>res://addons/dialogue_manager/assets/icon.svg<>0<>1<><>::
 dialogue_label.tscn::PackedScene::5518490004210093266::1761257316::0::1::::<><><>0<>0<><>::uid://g32um0mltv5d::::res://addons/dialogue_manager/dialogue_label.gd
 dialogue_line.gd::GDScript::1208905219044177333::1761257316::0::1::::DialogueLine<>RefCounted<><>0<>0<><>::
 dialogue_manager.gd::GDScript::6774079045493014679::1761257316::0::1::::<>Node<><>0<>0<><>::
-dialogue_resource.gd::GDScript::7268423792262407282::1761257316::0::1::::DialogueResource<>Resource<><>0<>1<><>::
+dialogue_resource.gd::GDScript::7268423792262407282::1761257316::0::1::::DialogueResource<>Resource<>res://addons/dialogue_manager/assets/icon.svg<>0<>1<><>::
 dialogue_response.gd::GDScript::5668140482552713515::1761257316::0::1::::DialogueResponse<>RefCounted<><>0<>0<><>::
-dialogue_responses_menu.gd::GDScript::2520211531407682507::1761257316::0::1::::DialogueResponsesMenu<>Container<><>0<>0<><>::
+dialogue_responses_menu.gd::GDScript::2520211531407682507::1761257316::0::1::::DialogueResponsesMenu<>Container<>res://addons/dialogue_manager/assets/responses_menu.svg<>0<>0<><>::
 editor_translation_parser_plugin.gd::GDScript::6952218891186463517::1761257316::0::1::::DMTranslationParserPlugin<>EditorTranslationParserPlugin<><>0<>0<><>::
 export_plugin.gd::GDScript::1265275163198105838::1761257316::0::1::::DMExportPlugin<>EditorExportPlugin<><>0<>0<><>::
 import_plugin.gd::GDScript::7696928728755687928::1761257316::0::1::::DMImportPlugin<>EditorImportPlugin<><>0<>1<><>::
@@ -497,13 +497,12 @@ DoubleDoor2.png::CompressedTexture2D::9058093260485662976::1761225889::176122588
 ::res://Assets/Map/objets-/::1761593359
 Plants.png::CompressedTexture2D::7619302549528101402::1761593296::1761593359::1::::<><><>0<>0<>442d28a1b9ecb3c4ca3bdbcea952a59a<>res://.godot/imported/Plants.png-7418033366db234addb6d7a24ba3c84b.ctex::
 Supplies.png::CompressedTexture2D::5406592971289895341::1761593296::1761593359::1::::<><><>0<>0<>46806aba1a3b02247c54d64fc1c4080d<>res://.godot/imported/Supplies.png-5f7b09ae377705822c63216b682b207c.ctex::
-::res://Assets/menu/::1761697189
+::res://Assets/menu/::1761754321
 cargar partida.png::CompressedTexture2D::4944819305677913791::1761693349::1761693356::1::::<><><>0<>0<>90952aa609af9680b1a315a69507e836<>res://.godot/imported/cargar partida.png-15d3f9ff791bc78eaf268d3a2e7007d1.ctex::
 configuracion.jpeg::CompressedTexture2D::2795769163879258775::1761695873::1761695878::1::::<><><>0<>0<>b8bf6beb4fd700aa4915754f4bcba832<>res://.godot/imported/configuracion.jpeg-a9e46a743e1fe06adfc65e201327afc8.ctex::
 fondo.png::CompressedTexture2D::8737164647492996186::1761692209::1761692211::1::::<><><>0<>0<>d838fb7a6d61f32b84fa7bf3aef0603e<>res://.godot/imported/fondo.png-a51a84b41589228470bbf2b94aa3af1d.ctex::
 jugar.png::CompressedTexture2D::3407661763912697434::1761692737::1761692741::1::::<><><>0<>0<>32549a6ca301fe5ea115bc0a775115d7<>res://.godot/imported/jugar.png-0ae25357b4f64afe5effbc686d2806e6.ctex::
 salir.jpeg::CompressedTexture2D::5982451998194362278::1761695262::1761695267::1::::<><><>0<>0<>0bd26c1ad2ea563cda15a33139ee3e54<>res://.godot/imported/salir.jpeg-47a1bbc1c7c6e932684a04f03fb566be.ctex::
-titulo2.jpeg::CompressedTexture2D::8767227194669209561::1761697189::1761697192::1::::<><><>0<>0<>52fad08d7e72c872482677d721fc405b<>res://.godot/imported/titulo2.jpeg-0345f4d3fd1e452950f15ea39b29698f.ctex::
 titulo.png::CompressedTexture2D::8436601727267335577::1761604643::1761604648::1::::<><><>0<>0<>cdd77988c40759682b44df8921105439<>res://.godot/imported/titulo.png-69c295048b57a73cbfc7fb2d7579906b.ctex::
 ::res://Assets/text nube/::1761257376
 pixil-layer-0.png::CompressedTexture2D::3303297318245789963::1761257316::1761257376::1::::<><><>0<>0<>0048c5d3c3171e7c6e510bae7fb142bc<>res://.godot/imported/pixil-layer-0.png-23e8a500e490d5cece7ba1c85b86cc84.ctex::
@@ -535,8 +534,8 @@ combate.tscn::PackedScene::2654631041851570472::1761593297::0::1::::<><><>0<>0<>
 personaje.tscn::PackedScene::3903043020251697407::1761666499::0::1::::<><><>0<>0<><>::uid://dqiqk00h4isn3::::res://Scripts/personaje.gd<>uid://ctvtd4kjxofki::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Run_with_shadow.png<>uid://bp6m15vyb67bt::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Idle_with_shadow.png<>uid://biofepdhxkqdq::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Walk_with_shadow.png
 ::res://escenas/Mapa/::1761690957
 mapa.tscn::PackedScene::3822569336027321158::1761690957::0::1::::<><><>0<>0<><>::uid://dis5leeepkx5r::::res://Assets/Map/free_pixel_16_woods.png
-::res://escenas/Menu/::1761696913
-menu.tscn::PackedScene::1338075434291269696::1761696913::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://dsg0uldyac7u8::::res://Assets/menu/titulo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bf3j56tmhoh0j::::res://Assets/menu/configuracion.jpeg<>uid://crh7d0tyft4ak::::res://Assets/menu/salir.jpeg<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png<>uid://dauv7kg8e0kxi::::res://Scripts/jugar_button.gd
+::res://escenas/Menu/::1761697407
+menu.tscn::PackedScene::1338075434291269696::1761697407::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://dsg0uldyac7u8::::res://Assets/menu/titulo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bf3j56tmhoh0j::::res://Assets/menu/configuracion.jpeg<>uid://crh7d0tyft4ak::::res://Assets/menu/salir.jpeg<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png<>uid://dauv7kg8e0kxi::::res://Scripts/jugar_button.gd
 ::res://Scripts/::1761693085
 combate.gd::GDScript::3320589135601638112::1761593297::0::1::::<>Node2D<><>0<>0<><>::
 jugar_button.gd::GDScript::7201882344421588326::1761693085::0::1::::<>Button<><>0<>0<><>::

@@ -63,6 +63,8 @@ func _on_huir_pressed():
 			return
 		texto_accion.text = "Escapaste con exito"
 		Combate_activo = false
+		await get_tree().create_timer(1.5).timeout
+		get_tree().change_scene_to_file("res://escenas/Mapa/mapa.tscn")
 	else:
 		await  get_tree().create_timer(1.5).timeout
 		turno_jugador = false
