@@ -1,10 +1,11 @@
-[gd_scene load_steps=26 format=3 uid="uid://tcf53ndfh16s"]
+[gd_scene load_steps=27 format=3 uid="uid://tcf53ndfh16s"]
 
 [ext_resource type="Texture2D" uid="uid://dwql3b71r3v35" path="res://Assets/menu/fondo.png" id="1_qmo4h"]
 [ext_resource type="Texture2D" uid="uid://dsg0uldyac7u8" path="res://Assets/menu/titulo.png" id="2_twnyl"]
 [ext_resource type="Texture2D" uid="uid://bosxxriibkv2q" path="res://Assets/menu/jugar.png" id="2_ui3ti"]
-[ext_resource type="Texture2D" uid="uid://bkth0db5sx8mu" path="res://Assets/menu/salir.png" id="3_qmo4h"]
-[ext_resource type="Texture2D" uid="uid://rdbiog01ymrv" path="res://Assets/menu/configuracion.png" id="3_snlmn"]
+[ext_resource type="Texture2D" uid="uid://bf3j56tmhoh0j" path="res://Assets/menu/configuracion.jpeg" id="3_eign5"]
+[ext_resource type="Texture2D" path="res://Assets/menu/salir.png" id="3_qmo4h"]
+[ext_resource type="Texture2D" uid="uid://crh7d0tyft4ak" path="res://Assets/menu/salir.jpeg" id="4_8iopd"]
 [ext_resource type="Texture2D" uid="uid://ccpkpl7o6kdm2" path="res://Assets/menu/cargar partida.png" id="4_17x2k"]
 [ext_resource type="Script" uid="uid://dauv7kg8e0kxi" path="res://Scripts/jugar_button.gd" id="6_8iopd"]
 
@@ -15,25 +16,25 @@ texture = ExtResource("2_twnyl")
 texture = ExtResource("2_twnyl")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5kvyy"]
-texture = ExtResource("3_snlmn")
+texture = ExtResource("3_eign5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_abwja"]
-texture = ExtResource("3_snlmn")
+texture = ExtResource("3_eign5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_5uejm"]
-texture = ExtResource("3_snlmn")
+texture = ExtResource("3_eign5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_u43na"]
-texture = ExtResource("3_snlmn")
+texture = ExtResource("3_eign5")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_twnyl"]
-texture = ExtResource("3_qmo4h")
+texture = ExtResource("4_8iopd")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_8iopd"]
-texture = ExtResource("3_qmo4h")
+texture = ExtResource("4_8iopd")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_eign5"]
-texture = ExtResource("3_qmo4h")
+texture = ExtResource("4_8iopd")
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_snlmn"]
 texture = ExtResource("3_qmo4h")
@@ -86,10 +87,10 @@ expand_mode = 1
 
 [node name="Label" type="Label" parent="TextureRect"]
 layout_mode = 0
-offset_left = 453.0
-offset_top = 129.0
-offset_right = 775.0
-offset_bottom = 248.0
+offset_left = 447.0
+offset_top = 98.0
+offset_right = 769.0
+offset_bottom = 217.0
 theme_override_styles/normal = SubResource("StyleBoxTexture_ax2mt")
 theme_override_styles/focus = SubResource("StyleBoxTexture_geybd")
 

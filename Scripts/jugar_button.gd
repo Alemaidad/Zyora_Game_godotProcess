@@ -14,7 +14,7 @@ func _process(delta: float) -> void:
 
 
 func _on_pressed() -> void:
-	get_tree().change_scene_to_file("res://escenas/Mapa/map.tscn")
+	get_tree().change_scene_to_file("res://escenas/Mapa/mapa.tscn")
 
 func _on_salir_button_pressed() -> void:
 	get_tree().quit()
