@@ -54,9 +54,9 @@ func _physics_process(delta):
 	#Sprint
 	if Input.is_action_pressed("primary"): 
 		if Horizontal !=0:
-			velocity.x = (speed * 2) * Horizontal
+			velocity.x = (speed * 1.5) * Horizontal
 		if  vertical !=0:
-			velocity.y = (speed * 2) * vertical
+			velocity.y = (speed * 1.5) * vertical
 	move_and_slide()
 	
 	
