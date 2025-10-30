@@ -403,3 +403,5 @@ scale = Vector2(1.9780858, 2.2754028)
 theme_override_colors/font_shadow_color = Color(1.0609317, 0.9077833, 0, 0.003921569)
 theme_override_fonts/font = ExtResource("6_vlauw")
 horizontal_alignment = 1
+
+[connection signal="pressed" from="Panel/Huir" to="." method="_on_huir_pressed"]
