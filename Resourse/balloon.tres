@@ -1,0 +1,41 @@
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://5vnsejg7hbl4"]
+
+[ext_resource type="FontFile" uid="uid://bvg1keuxeda8m" path="res://Assets/determination-letter-game/determination.ttf" id="1_mhiml"]
+[ext_resource type="Texture2D" uid="uid://bxr8hhyhgtbl0" path="res://Assets/text nube/text_grande.png" id="2_qwf5j"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mhiml"]
+load_path = "res://.godot/imported/text_grande.png-52c9e0046a7faa2cf79a8af9601e629e.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwf5j"]
+atlas = SubResource("CompressedTexture2D_mhiml")
+region = Rect2(16, 121, 161, 40)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_skixe"]
+texture = SubResource("AtlasTexture_qwf5j")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gn1gv"]
+atlas = ExtResource("2_qwf5j")
+region = Rect2(16, 121, 161, 40)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kuy1f"]
+texture = SubResource("AtlasTexture_gn1gv")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/fonts/font = ExtResource("1_mhiml")
+Button/styles/disabled = SubResource("StyleBoxTexture_skixe")
+Button/styles/focus = SubResource("StyleBoxTexture_skixe")
+Button/styles/hover = SubResource("StyleBoxTexture_skixe")
+Button/styles/normal = SubResource("StyleBoxTexture_skixe")
+Button/styles/pressed = SubResource("StyleBoxTexture_skixe")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_kuy1f")
+RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
+RichTextLabel/fonts/bold_font = ExtResource("1_mhiml")
