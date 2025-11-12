@@ -5,6 +5,6 @@ Caballero: Crees que tienes lo necesario?
 Zyora: tengo que ir igualmente.
 Caballero: Entonces te pondre a prueba.
 - Enfrentar
-	Caballero: Empecemos la Batalla.
+	Caballero: Empecemos la Batalla [do Variables.change_escena("res://escenas/combat escena/combate.tscn")]
 - Irse
 	Caballero: ... => END

@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://bd26ndsjcc4v1"]
+[gd_scene load_steps=57 format=3 uid="uid://bd26ndsjcc4v1"]
 
 [ext_resource type="Script" uid="uid://bnkrvakxxrtym" path="res://Scripts/combate.gd" id="1_0is0q"]
 [ext_resource type="Texture2D" uid="uid://b3oe8pc1877r8" path="res://Assets/ui medieval/combat_pvp.png" id="1_tj7jl"]
@@ -146,7 +146,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"atack_1",
-"speed": 8.0
+"speed": 11.0
 }, {
 "frames": [{
 "duration": 2.01,
@@ -190,7 +190,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"atack_2",
-"speed": 8.0
+"speed": 14.0
 }, {
 "frames": [{
 "duration": 2.01,
@@ -213,7 +213,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"atack_3",
-"speed": 8.0
+"speed": 14.0
 }, {
 "frames": [{
 "duration": 2.01,
@@ -227,6 +227,58 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pbci"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(0, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ixe53"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(128, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_orq4l"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(256, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7hqv"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(384, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wjh4u"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(512, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0f58o"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(640, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i2orf"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(768, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydew2"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(896, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ugog1"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(1024, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6soj8"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(1152, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lycy3"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(1280, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rjhey"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(1408, 4352, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqubt"]
+atlas = ExtResource("7_vlauw")
+region = Rect2(1536, 4352, 128, 128)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_yq7eb"]
 atlas = ExtResource("7_vlauw")
 region = Rect2(0, 2880, 64, 64)
@@ -237,10 +289,49 @@ region = Rect2(64, 2880, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_xobc4"]
 animations = [{
-"frames": [],
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pbci")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ixe53")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_orq4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7hqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wjh4u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0f58o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i2orf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydew2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ugog1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6soj8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lycy3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rjhey")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqubt")
+}],
 "loop": false,
 "name": &"atack_1",
-"speed": 5.0
+"speed": 18.0
 }, {
 "frames": [],
 "loop": false,
@@ -288,14 +379,12 @@ frame = 12
 frame_progress = 1.0
 
 [node name="BarraVidaJugador" type="TextureProgressBar" parent="player"]
-clip_contents = true
-offset_left = 840.0
-offset_top = 127.99999
-offset_right = 888.8716
-offset_bottom = 145.50436
-scale = Vector2(7, 7)
-value = 1.0
-nine_patch_stretch = true
+offset_left = 813.0
+offset_top = 136.0
+offset_right = 873.0
+offset_bottom = 156.0
+scale = Vector2(7, 5.68)
+max_value = 0.0
 texture_under = ExtResource("3_2gni0")
 texture_over = ExtResource("4_2gni0")
 texture_progress = ExtResource("5_nt11f")
@@ -320,17 +409,20 @@ horizontal_alignment = 1
 position = Vector2(344, 384)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_xobc4")
+animation = &"atack_1"
 autoplay = "default"
+frame = 12
+frame_progress = 1.0
 
 [node name="BarraVidaEnemy" type="TextureProgressBar" parent="enemy"]
 texture_filter = 1
+custom_minimum_size = Vector2(34, 0)
 offset_left = 160.00002
 offset_top = 136.0
 offset_right = 209.61281
 offset_bottom = 156.0
 scale = Vector2(7, 5.68)
 max_value = 0.0
-nine_patch_stretch = true
 texture_under = ExtResource("3_2gni0")
 texture_over = ExtResource("4_2gni0")
 texture_progress = ExtResource("5_nt11f")
@@ -404,4 +496,5 @@ theme_override_colors/font_shadow_color = Color(1.0609317, 0.9077833, 0, 0.00392
 theme_override_fonts/font = ExtResource("6_vlauw")
 horizontal_alignment = 1
 
+[connection signal="animation_finished" from="enemy/animacion" to="." method="animation_enemy_finish"]
 [connection signal="pressed" from="Panel/Huir" to="." method="_on_huir_pressed"]

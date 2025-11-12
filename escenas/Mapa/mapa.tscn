@@ -1,13 +1,15 @@
-[gd_scene load_steps=55 format=4 uid="uid://bupxfng5sax1w"]
+[gd_scene load_steps=59 format=4 uid="uid://bupxfng5sax1w"]
 
 [ext_resource type="Texture2D" uid="uid://dis5leeepkx5r" path="res://Assets/Map/free_pixel_16_woods.png" id="1_2jh14"]
 [ext_resource type="PackedScene" uid="uid://bvuwsv3pp3otr" path="res://escenas/Jugador/personaje.tscn" id="2_crpcq"]
 [ext_resource type="Script" uid="uid://bcj5plyti0idc" path="res://Scripts/zona_mapa_cam.gd" id="3_8taad"]
 [ext_resource type="Texture2D" uid="uid://cmn238vkxv8dw" path="res://Assets/Jugador/Swordsman_lvl1/Without_shadow/shadow_single.png" id="3_jgie3"]
 [ext_resource type="Texture2D" uid="uid://cy3dvs6vg1pff" path="res://Assets/Jugador/Nueva carpeta/Download28528.png" id="3_rcceg"]
-[ext_resource type="Script" uid="uid://dosmcggstywnv" path="res://escenas/Mapa/control.gd" id="6_eopgd"]
+[ext_resource type="Script" uid="uid://dosmcggstywnv" path="res://Scripts/control.gd" id="6_eopgd"]
 [ext_resource type="Texture2D" uid="uid://bnce3a15qj3l4" path="res://Assets/text nube/pixil-layer-0.png" id="7_eopgd"]
 [ext_resource type="FontFile" uid="uid://bvg1keuxeda8m" path="res://Assets/determination-letter-game/determination.ttf" id="8_lvcfm"]
+[ext_resource type="Script" uid="uid://cj5pahsdpff7h" path="res://Scripts/Cartel.gd" id="9_a8y53"]
+[ext_resource type="Texture2D" uid="uid://d3pf1obhoaa2m" path="res://Assets/text nube/cartel.png" id="9_bd5u5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2jh14"]
 texture = ExtResource("1_2jh14")
@@ -2001,6 +2003,13 @@ Panel/styles/panel = SubResource("StyleBoxEmpty_a8y53")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eopgd"]
 size = Vector2(64.25, 42.75)
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_a8y53"]
+radius = 3.3333359
+height = 18.333359
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orbxx"]
+size = Vector2(35, 31.666664)
+
 [node name="mapa" type="Node2D"]
 
 [node name="capa 1" type="TileMapLayer" parent="."]
@@ -2034,7 +2043,7 @@ position = Vector2(0.5, -6)
 scale = Vector2(0.35, 0.35)
 collision_layer = 5
 collision_mask = 9
-speed = 200
+speed = 40
 
 [node name="Animaciones" parent="Personaje" index="0"]
 position = Vector2(1.3623918e-06, -2.8571367)
@@ -2447,8 +2456,123 @@ collision_mask = 4
 position = Vector2(386, 257)
 shape = SubResource("RectangleShape2D_eopgd")
 
+[node name="Cartelito1" type="StaticBody2D" parent="."]
+position = Vector2(65, -53)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("9_a8y53")
+TextoCartel = "Hola, somos PixelField studio Somos desarrolladores indies que estamos empezando en el desarrollo de videojuegos, esperamos que esta propuesta sea bien recibida"
+
+[node name="Cartel" type="Sprite2D" parent="Cartelito1"]
+texture = ExtResource("9_bd5u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito1"]
+position = Vector2(0, 5.8333206)
+shape = SubResource("CapsuleShape2D_a8y53")
+
+[node name="Area2D" type="Area2D" parent="Cartelito1"]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito1/Area2D"]
+position = Vector2(0.8333359, 0.8333206)
+shape = SubResource("RectangleShape2D_orbxx")
+
+[node name="Cartelito2" type="StaticBody2D" parent="."]
+position = Vector2(-31, 201)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("9_a8y53")
+TextoCartel = "Hola otra vez, puedes darte el lujo de explorar todo el mapa la verdad esta bastante bonito quisiera que cualquier duda que tengas nos la hagas saber"
+
+[node name="Cartel" type="Sprite2D" parent="Cartelito2"]
+texture = ExtResource("9_bd5u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito2"]
+position = Vector2(0, 5.8333206)
+shape = SubResource("CapsuleShape2D_a8y53")
+
+[node name="Area2D" type="Area2D" parent="Cartelito2"]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito2/Area2D"]
+position = Vector2(0.8333359, 0.8333206)
+shape = SubResource("RectangleShape2D_orbxx")
+
+[node name="Cartelito3" type="StaticBody2D" parent="."]
+position = Vector2(-397, 233)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("9_a8y53")
+TextoCartel = "Mmmm que tal hasta ahora? si te gusta? bueno esta bien quizas mas tarde me dices este cartel es solo para que sepas que en el otro extremo esta un caballero"
+
+[node name="Cartel" type="Sprite2D" parent="Cartelito3"]
+texture = ExtResource("9_bd5u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito3"]
+position = Vector2(0, 5.8333206)
+shape = SubResource("CapsuleShape2D_a8y53")
+
+[node name="Area2D" type="Area2D" parent="Cartelito3"]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito3/Area2D"]
+position = Vector2(0.8333359, 0.8333206)
+shape = SubResource("RectangleShape2D_orbxx")
+
+[node name="Cartelito4" type="StaticBody2D" parent="."]
+position = Vector2(219, 296)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("9_a8y53")
+TextoCartel = "Acercate al caballero veras algo bastante raro con la k puedes hablar con el, no te enfrentes a el guiño guiño."
+
+[node name="Cartel" type="Sprite2D" parent="Cartelito4"]
+texture = ExtResource("9_bd5u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito4"]
+position = Vector2(0, 5.8333206)
+shape = SubResource("CapsuleShape2D_a8y53")
+
+[node name="Area2D" type="Area2D" parent="Cartelito4"]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito4/Area2D"]
+position = Vector2(0.8333359, 0.8333206)
+shape = SubResource("RectangleShape2D_orbxx")
+
+[node name="Cartelito5" type="StaticBody2D" parent="."]
+position = Vector2(39.000015, 410)
+scale = Vector2(0.6, 0.6)
+script = ExtResource("9_a8y53")
+TextoCartel = "Espero que hayas tenido un rato agradable explorando el mapa, te agradeceria mucho si me ayudaras con ideas para mejorar puedes darme tu opinion aqui: maisdel2323@gmail.com "
+
+[node name="Cartel" type="Sprite2D" parent="Cartelito5"]
+texture = ExtResource("9_bd5u5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito5"]
+position = Vector2(0, 5.8333206)
+shape = SubResource("CapsuleShape2D_a8y53")
+
+[node name="Area2D" type="Area2D" parent="Cartelito5"]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Cartelito5/Area2D"]
+position = Vector2(0.8333359, 0.8333206)
+shape = SubResource("RectangleShape2D_orbxx")
+
 [connection signal="body_entered" from="Node2D/ZonaMapaCam" to="Node2D/ZonaMapaCam" method="_on_body_entered"]
 [connection signal="body_entered" from="Zona_Nube" to="Personaje" method="_on_zona_nube_body_entered"]
 [connection signal="body_exited" from="Zona_Nube" to="Personaje" method="_on_zona_nube_body_exited"]
+[connection signal="body_entered" from="Cartelito1/Area2D" to="Cartelito1" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Cartelito1/Area2D" to="Cartelito1" method="_on_area_2d_body_exited"]
+[connection signal="body_entered" from="Cartelito2/Area2D" to="Cartelito2" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Cartelito2/Area2D" to="Cartelito2" method="_on_area_2d_body_exited"]
+[connection signal="body_entered" from="Cartelito3/Area2D" to="Cartelito3" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Cartelito3/Area2D" to="Cartelito3" method="_on_area_2d_body_exited"]
+[connection signal="body_entered" from="Cartelito4/Area2D" to="Cartelito4" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Cartelito4/Area2D" to="Cartelito4" method="_on_area_2d_body_exited"]
+[connection signal="body_entered" from="Cartelito5/Area2D" to="Cartelito5" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Cartelito5/Area2D" to="Cartelito5" method="_on_area_2d_body_exited"]
 
 [editable path="Personaje"]

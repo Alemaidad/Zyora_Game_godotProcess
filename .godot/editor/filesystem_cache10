@@ -1,13 +1,13 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1762275610
+::res://::1762360487
 icon.svg::CompressedTexture2D::7548255359254964816::1761681959::1761681959::1::::<><><>0<>0<>57a3371feea8f75dbfa75be4f9ef9223<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1761681959
-::res://addons/dialogue_manager/::1761681959
+::res://addons/dialogue_manager/::1762323179
 constants.gd::GDScript::4240262336831424009::1761681959::0::1::::DMConstants<>RefCounted<><>0<>0<><>::
 dialogue_label.gd::GDScript::480611383085669467::1761681959::0::1::::DialogueLabel<>RichTextLabel<><>0<>1<><>::
 dialogue_label.tscn::PackedScene::5518490004210093266::1761681959::0::1::::<><><>0<>0<><>::uid://g32um0mltv5d::::res://addons/dialogue_manager/dialogue_label.gd
 dialogue_line.gd::GDScript::1208905219044177333::1761681959::0::1::::DialogueLine<>RefCounted<><>0<>0<><>::
-dialogue_manager.gd::GDScript::6774079045493014679::1761681959::0::1::::<>Node<><>0<>0<><>::
+dialogue_manager.gd::GDScript::6774079045493014679::1762323179::0::1::::<>Node<><>0<>0<><>::
 dialogue_resource.gd::GDScript::7268423792262407282::1761681959::0::1::::DialogueResource<>Resource<><>0<>1<><>::
 dialogue_response.gd::GDScript::5668140482552713515::1761681959::0::1::::DialogueResponse<>RefCounted<><>0<>0<><>::
 dialogue_responses_menu.gd::GDScript::2520211531407682507::1761681959::0::1::::DialogueResponsesMenu<>Container<><>0<>0<><>::
@@ -78,9 +78,10 @@ dialogue_cache.gd::GDScript::9130733358047983146::1761681959::0::1::::DMCache<>N
 main_view.gd::GDScript::5365867961863611872::1761681959::0::1::::<>Control<><>0<>1<><>::
 main_view.tscn::PackedScene::4884668666408697448::1761681959::0::1::::<><><>0<>0<><>::uid://cipjcc7bkh1pc::::res://addons/dialogue_manager/views/main_view.gd<>uid://civ6shmka5e8u::::res://addons/dialogue_manager/components/code_edit.tscn<>uid://dnufpcdrreva3::::res://addons/dialogue_manager/components/files_list.tscn<>uid://ctns6ouwwd68i::::res://addons/dialogue_manager/components/title_list.tscn<>uid://co8yl23idiwbi::::res://addons/dialogue_manager/components/update_button.tscn<>uid://gr8nakpbrhby::::res://addons/dialogue_manager/components/search_and_replace.tscn<>uid://cs8pwrxr5vxix::::res://addons/dialogue_manager/components/errors_panel.tscn<>uid://klpiq4tk3t7a::::res://addons/dialogue_manager/components/code_edit_syntax_highlighter.gd<>uid://cnm67htuohhlo::::res://addons/dialogue_manager/assets/banner.png<>uid://0n7hwviyyly4::::res://addons/dialogue_manager/components/find_in_files.tscn
 ::res://Assets/::1761681959
-::res://Assets/determination-letter-game/::1761703007
+::res://Assets/determination-letter-game/::1762390966
 determination.ttf::FontFile::3874369408407084838::1761681959::1761703007::1::::<><><>0<>0<>01275a83574cf77fc3cf7c093b93ed71<>res://.godot/imported/determination.ttf-d618e4e06a180f3569031170c35bbd0e.fontdata::
 license.txt::TextFile::-1::1761681959::0::1::::<><><>0<>0<><>::
+PixelOperator.ttf::FontFile::5141566824037708463::1762390907::1762390970::1::::<><><>0<>0<>9517a352f70d422a06d3b6d9301c65c8<>res://.godot/imported/PixelOperator.ttf-2ad5d962c6f0e06c192534c9c319f691.fontdata::
 readme.txt::TextFile::-1::1761681959::0::1::::<><><>0<>0<><>::
 ::res://Assets/Jugador/::1762118898
 ::res://Assets/Jugador/Nueva carpeta/::1761703008
@@ -510,17 +511,19 @@ fondo.png::CompressedTexture2D::8737164647492996186::1761830690::1761830909::1::
 jugar.png::CompressedTexture2D::3407661763912697434::1761830690::1761830908::1::::<><><>0<>0<>32549a6ca301fe5ea115bc0a775115d7<>res://.godot/imported/jugar.png-0ae25357b4f64afe5effbc686d2806e6.ctex::
 salir.jpeg::CompressedTexture2D::5982451998194362278::1761830690::1761830908::1::::<><><>0<>0<>0bd26c1ad2ea563cda15a33139ee3e54<>res://.godot/imported/salir.jpeg-47a1bbc1c7c6e932684a04f03fb566be.ctex::
 titulo.png::CompressedTexture2D::8436601727267335577::1761681959::1761703007::1::::<><><>0<>0<>cdd77988c40759682b44df8921105439<>res://.godot/imported/titulo.png-69c295048b57a73cbfc7fb2d7579906b.ctex::
-::res://Assets/text nube/::1762196459
+::res://Assets/text nube/::1762387210
+cartel.png::CompressedTexture2D::9155866092068930210::1762305782::1762305784::1::::<><><>0<>0<>30611c150fff1348359086fbcb00027b<>res://.godot/imported/cartel.png-37d0f1be97e228ff2e1cc77bc2fabd4f.ctex::
+klipartz.com.png::CompressedTexture2D::8623517057582033815::1762387207::1762387210::1::::<><><>0<>0<>6da98e5af5c6df46497eacbc3706cb69<>res://.godot/imported/klipartz.com.png-375f8d377a8dcd30484b390ba0ea34da.ctex::
 pixil-layer-0.png::CompressedTexture2D::3303297318245789963::1761681959::1761703007::1::::<><><>0<>0<>0048c5d3c3171e7c6e510bae7fb142bc<>res://.godot/imported/pixil-layer-0.png-23e8a500e490d5cece7ba1c85b86cc84.ctex::
 pixil-layer-1.png::CompressedTexture2D::7910695765161655124::1761681959::1761703007::1::::<><><>0<>0<>164d7572f4f09fe9fb704339512b0b0c<>res://.godot/imported/pixil-layer-1.png-6ccdf1dc83e3e6f6317d5ffbde35803a.ctex::
 pixil-layer-2.png::CompressedTexture2D::3935089480940493956::1761681959::1761703007::1::::<><><>0<>0<>9db810613653685b15fd62f6bd556eb8<>res://.godot/imported/pixil-layer-2.png-f45355cd20ec711f1a961bbe0dfbdbfd.ctex::
 pixil-layer-3.png::CompressedTexture2D::1891482778910042030::1761681959::1761703007::1::::<><><>0<>0<>ed35f45c7f0d3288341bbaa594bb3f81<>res://.godot/imported/pixil-layer-3.png-c5c9a13036f5908b2dc4e8e5dce9a2da.ctex::
 pixil-layer-4.png::CompressedTexture2D::2629259999005327423::1761681959::1761703007::1::::<><><>0<>0<>67bac9152b2028c722d215700aaeeb77<>res://.godot/imported/pixil-layer-4.png-f865ccda51d9a877d4460bbbee28ed43.ctex::
 text_grande.png::CompressedTexture2D::4037875075571060971::1762196456::1762196459::1::::<><><>0<>0<>d27b8bae0880314d9d9250426e433e3e<>res://.godot/imported/text_grande.png-52c9e0046a7faa2cf79a8af9601e629e.ctex::
-::res://Assets/ui medieval/::1761703007
+::res://Assets/ui medieval/::1762353225
 combat_pvp.png::CompressedTexture2D::4380912185451348531::1761681959::1761703007::1::::<><><>0<>0<>f193d2f30bde12d880558a159d4275a8<>res://.godot/imported/combat_pvp.png-8ab98dc4b7d8f3e189199d3e950eedde.ctex::
 icon_32_2_09.png::CompressedTexture2D::3972898640770173652::1761681959::1761703007::1::::<><><>0<>0<>753b57af1fa58c711608735dad06be6c<>res://.godot/imported/icon_32_2_09.png-bef60daf8beb7f2cedc1430525aa2716.ctex::
-MediavelFree.png::CompressedTexture2D::8003544167023752634::1761681959::1761703007::1::::<><><>0<>0<>11e69bc7ee796b45e803b01587f7fc6e<>res://.godot/imported/MediavelFree.png-f8f276ffb58a32da7c28cfabee585955.ctex::
+MediavelFree.png::CompressedTexture2D::8003544167023752634::1762353223::1762353225::1::::<><><>0<>0<>11e69bc7ee796b45e803b01587f7fc6e<>res://.godot/imported/MediavelFree.png-f8f276ffb58a32da7c28cfabee585955.ctex::
 recorted found.png::CompressedTexture2D::6002684629137545043::1761681959::1761703007::1::::<><><>0<>0<>080e2c9d235b311a142ad99558e85a89<>res://.godot/imported/recorted found.png-ac71b3e02035566a26b7415e8bd53db2.ctex::
 ::res://Assets/ui medieval/antihero-healthbar/::1761703007
 antihero-healthbar_Background.png::CompressedTexture2D::1160425152785162194::1761681959::1761703007::1::::<><><>0<>0<>66e45a41399a8b5446ee0912a765674a<>res://.godot/imported/antihero-healthbar_Background.png-91b16d810ac5cf3b54579a10a5d96402.ctex::
@@ -532,25 +535,29 @@ antihero-healthbar_Icon White.png::CompressedTexture2D::1944181558511118016::176
 antihero-healthbar_Iconhearth Black.png::CompressedTexture2D::3469944893545167516::1761681959::1761703007::1::::<><><>0<>0<>589144d54f73051042c803920fba29da<>res://.godot/imported/antihero-healthbar_Iconhearth Black.png-39d0a8e31bd323f3fc2e6461250bdb5c.ctex::
 antihero-healthbar_Mana Background.png::CompressedTexture2D::5691514899568308505::1761681959::1761703007::1::::<><><>0<>0<>d78222a7f9bf13f2ac3797213005ccba<>res://.godot/imported/antihero-healthbar_Mana Background.png-d2d9d8bd3393459ad619496373ff528e.ctex::
 antihero-healthbar_Mana.png::CompressedTexture2D::5336012485529665012::1761681959::1761703007::1::::<><><>0<>0<>61e5dacdf48737b3496481bde01521de<>res://.godot/imported/antihero-healthbar_Mana.png-9a154afa2f4a19dea02f4c5043cb784e.ctex::
-::res://Dialogos/::1762275166
+::res://Dialogos/::1762324247
 balloon.gd::GDScript::7282650475312844612::1762271534::0::1::::<>CanvasLayer<><>0<>0<><>::
-balloon.tscn::PackedScene::1714515073277039459::1762275960::0::1::::<><><>0<>0<><>::uid://db01go4a60pxc::::res://Dialogos/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://5vnsejg7hbl4::::res://Resourse/balloon.tres<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf
-village_dialog.dialogue::Resource::8665741987799701701::1762275960::1762275960::1::::<><><>0<>0<>517d0c9a7f009868753a066baf527884<>res://.godot/imported/village_dialog.dialogue-49180e0c25890dba187186695a18affa.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://escenas/::1762272765
-::res://escenas/combat escena/::1761830690
-combate.tscn::PackedScene::2654631041851570472::1761830690::0::1::::<><><>0<>0<><>::uid://bnkrvakxxrtym::::res://Scripts/combate.gd<>uid://b3oe8pc1877r8::::res://Assets/ui medieval/combat_pvp.png<>uid://qsebd3jd24uo::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Background.png<>uid://bpo4qrfnpjdwm::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Iconhearth Black.png<>uid://cqe5injfl6be5::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Health.png<>uid://c3hlgqb4ib8d6::::res://Assets/Jugador/Nueva carpeta/Download63905.png<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf<>uid://dma8g51t06qtm::::res://Assets/ui medieval/MediavelFree.png<>uid://cy3dvs6vg1pff::::res://Assets/Jugador/Nueva carpeta/Download28528.png<>uid://bwurcbs0vn55i::::res://Assets/ui medieval/icon_32_2_09.png<>uid://bttu38q5irnkn::::res://Assets/Map/2 Objects/4 Box/1.png
+balloon.tscn::PackedScene::1714515073277039459::1762323225::0::1::::<><><>0<>0<><>::uid://db01go4a60pxc::::res://Dialogos/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://5vnsejg7hbl4::::res://Resourse/balloon.tres<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf
+village_dialog.dialogue::Resource::8665741987799701701::1762324247::1762324247::1::::<><><>0<>0<>517d0c9a7f009868753a066baf527884<>res://.godot/imported/village_dialog.dialogue-49180e0c25890dba187186695a18affa.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+::res://escenas/::1762350327
+::res://escenas/combat escena/::1762327755
+combate.tscn::PackedScene::2654631041851570472::1762327755::0::1::::<><><>0<>0<><>::uid://bnkrvakxxrtym::::res://Scripts/combate.gd<>uid://b3oe8pc1877r8::::res://Assets/ui medieval/combat_pvp.png<>uid://qsebd3jd24uo::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Background.png<>uid://bpo4qrfnpjdwm::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Iconhearth Black.png<>uid://cqe5injfl6be5::::res://Assets/ui medieval/antihero-healthbar/antihero-healthbar_Health.png<>uid://c3hlgqb4ib8d6::::res://Assets/Jugador/Nueva carpeta/Download63905.png<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf<>uid://dma8g51t06qtm::::res://Assets/ui medieval/MediavelFree.png<>uid://cy3dvs6vg1pff::::res://Assets/Jugador/Nueva carpeta/Download28528.png<>uid://bwurcbs0vn55i::::res://Assets/ui medieval/icon_32_2_09.png<>uid://bttu38q5irnkn::::res://Assets/Map/2 Objects/4 Box/1.png
+::res://escenas/Flotante/::1762388961
+Controles and move.tscn::PackedScene::2100181811555387054::1762355049::0::1::::<><><>0<>0<><>::uid://dma8g51t06qtm::::res://Assets/ui medieval/MediavelFree.png<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf
+pergamino.tscn::PackedScene::7897161363063814359::1762388961::0::1::::<><><>0<>0<><>::uid://dma8g51t06qtm::::res://Assets/ui medieval/MediavelFree.png
 ::res://escenas/Jugador/::1761681959
 personaje.tscn::PackedScene::3903043020251697407::1761681959::0::1::::<><><>0<>0<><>::uid://dqiqk00h4isn3::::res://Scripts/personaje.gd<>uid://ctvtd4kjxofki::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Run_with_shadow.png<>uid://bp6m15vyb67bt::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Idle_with_shadow.png<>uid://biofepdhxkqdq::::res://Assets/Jugador/Swordsman_lvl1/With_shadow/Swordsman_lvl1_Walk_with_shadow.png
-::res://escenas/Mapa/::1762217585
+::res://escenas/Mapa/::1762387399
+mapa.tscn::PackedScene::3822569336027321158::1762387399::0::1::::<><><>0<>0<><>::uid://dis5leeepkx5r::::res://Assets/Map/free_pixel_16_woods.png<>uid://bvuwsv3pp3otr::::res://escenas/Jugador/personaje.tscn<>uid://bcj5plyti0idc::::res://Scripts/zona_mapa_cam.gd<>uid://cmn238vkxv8dw::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/shadow_single.png<>uid://cy3dvs6vg1pff::::res://Assets/Jugador/Nueva carpeta/Download28528.png<>uid://dosmcggstywnv::::res://Scripts/control.gd<>uid://bnce3a15qj3l4::::res://Assets/text nube/pixil-layer-0.png<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf<>uid://cj5pahsdpff7h::::res://Scripts/Cartel.gd<>uid://d3pf1obhoaa2m::::res://Assets/text nube/cartel.png
+::res://escenas/Menu/::1762324304
+menu.tscn::PackedScene::1338075434291269696::1762324304::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://dsg0uldyac7u8::::res://Assets/menu/titulo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bf3j56tmhoh0j::::res://Assets/menu/configuracion.jpeg<>uid://crh7d0tyft4ak::::res://Assets/menu/salir.jpeg<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png<>uid://dauv7kg8e0kxi::::res://Scripts/jugar_button.gd
+::res://Resourse/::1762386062
+balloon.tres::Theme::2149838931484771279::1762386062::0::1::::<><><>0<>0<><>::uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf<>uid://bxr8hhyhgtbl0::::res://Assets/text nube/text_grande.png
+::res://Scripts/::1762360652
+Cartel.gd::GDScript::5467383443268269011::1762321656::0::1::::<>StaticBody2D<><>0<>0<><>::
+combate.gd::GDScript::3320589135601638112::1762327755::0::1::::<>Node2D<><>0<>0<><>::
 control.gd::GDScript::8179797162338964439::1762216162::0::1::::Controlset<>Control<><>0<>0<><>::
-mapa.tscn::PackedScene::3822569336027321158::1762217585::0::1::::<><><>0<>0<><>::uid://dis5leeepkx5r::::res://Assets/Map/free_pixel_16_woods.png<>uid://bvuwsv3pp3otr::::res://escenas/Jugador/personaje.tscn<>uid://bcj5plyti0idc::::res://Scripts/zona_mapa_cam.gd<>uid://cmn238vkxv8dw::::res://Assets/Jugador/Swordsman_lvl1/Without_shadow/shadow_single.png<>uid://cy3dvs6vg1pff::::res://Assets/Jugador/Nueva carpeta/Download28528.png<>uid://dosmcggstywnv::::res://escenas/Mapa/control.gd<>uid://bnce3a15qj3l4::::res://Assets/text nube/pixil-layer-0.png<>uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf
-::res://escenas/Menu/::1761830690
-menu.tscn::PackedScene::1338075434291269696::1761830690::0::1::::<><><>0<>0<><>::uid://dwql3b71r3v35::::res://Assets/menu/fondo.png<>uid://dsg0uldyac7u8::::res://Assets/menu/titulo.png<>uid://bosxxriibkv2q::::res://Assets/menu/jugar.png<>uid://bf3j56tmhoh0j::::res://Assets/menu/configuracion.jpeg<>uid://crh7d0tyft4ak::::res://Assets/menu/salir.jpeg<>uid://ccpkpl7o6kdm2::::res://Assets/menu/cargar partida.png<>uid://dauv7kg8e0kxi::::res://Scripts/jugar_button.gd
-::res://Resourse/::1762271678
-balloon.tres::Theme::2149838931484771279::1762275960::0::1::::<><><>0<>0<><>::uid://bvg1keuxeda8m::::res://Assets/determination-letter-game/determination.ttf<>uid://bxr8hhyhgtbl0::::res://Assets/text nube/text_grande.png
-::res://Scripts/::1762275089
-combate.gd::GDScript::3320589135601638112::1761830690::0::1::::<>Node2D<><>0<>0<><>::
 jugar_button.gd::GDScript::7201882344421588326::1762118924::0::1::::<>Button<><>0<>0<><>::
-personaje.gd::GDScript::8299789253204613326::1762275089::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
-Variables.gd::GDScript::9165939615607482554::1762209772::0::1::::<>Node<><>0<>0<><>::
+personaje.gd::GDScript::8299789253204613326::1762360652::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
+Variables.gd::GDScript::9165939615607482554::1762325721::0::1::::<>Node<><>0<>0<><>::
 zona_mapa_cam.gd::GDScript::2547226683154384432::1761962102::0::1::::<>Area2D<><>0<>0<><>::

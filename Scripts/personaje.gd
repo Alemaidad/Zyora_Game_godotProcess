@@ -6,8 +6,11 @@ extends CharacterBody2D
 @onready var Are: Area2D = $"../Zona_Nube"
 const VILLAGE_DIALOG = preload("uid://dvp0rffh2jssb")
 
+
+
 var Player_is_close = false
 var DialogueIsActive = false
+var instance_controles:Node = null
 
 
 
@@ -16,6 +19,23 @@ func _ready() -> void:
 	$"../Control".visible = false
 	DialogueManager.dialogue_started.connect(on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(on_dialogue_ended)
+	await get_tree().create_timer(1).timeout
+	Mostrar_controles_tutorial()
+
+	
+	#var instance_controles = controles_scene.instantiate()
+	#add_child(instance_controles)
+	#if Input.is_action_pressed("secundary"):
+		#instance_controles.queue_free() 
+
+
+func Mostrar_controles_tutorial():
+	if instance_controles == null:
+		var controles_scene = preload("res://escenas/Flotante/Controles and move.tscn")
+		instance_controles = controles_scene.instantiate()
+		add_child(instance_controles)
+		
+	
 
 func on_dialogue_ended(dialogue):
 	await get_tree().create_timer(0.4).timeout
@@ -25,6 +45,11 @@ func on_dialogue_started(dialogue):
 	DialogueIsActive = true
 
 func _process(delta):
+	if instance_controles != null and Input.is_action_just_pressed("secundary"):
+		instance_controles.queue_free()
+		instance_controles = null
+	
+	
 	if Player_is_close and Input.is_action_pressed("secundary") and not DialogueIsActive:
 		DialogueManager.show_dialogue_balloon(VILLAGE_DIALOG, "Start")
 		control.visible = false

@@ -1,0 +1,65 @@
+[gd_scene load_steps=5 format=3 uid="uid://dkrpdgrcopmrn"]
+
+[ext_resource type="Texture2D" uid="uid://dma8g51t06qtm" path="res://Assets/ui medieval/MediavelFree.png" id="1_eis82"]
+[ext_resource type="FontFile" uid="uid://cfiu4bxk6q4f8" path="res://Assets/determination-letter-game/PixelOperator.ttf" id="2_pfnmi"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pfnmi"]
+atlas = ExtResource("1_eis82")
+region = Rect2(224, 34, 32, 29)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ib1tu"]
+texture = SubResource("AtlasTexture_pfnmi")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[node name="Pergamino" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 327.0
+offset_top = 152.0
+offset_right = 327.0
+offset_bottom = 152.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.5, 0.5)
+
+[node name="PanelContainer" type="PanelContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -529.9999
+offset_top = -264.0
+offset_right = -418.89993
+offset_bottom = -201.99998
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(10, 10)
+theme_override_styles/panel = SubResource("StyleBoxTexture_ib1tu")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.43800002
+anchor_right = 0.5
+anchor_bottom = 0.43800002
+offset_left = -212.0
+offset_top = -67.360016
+offset_right = 247.0
+offset_bottom = 150.63998
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_constants/line_separation = 2
+theme_override_constants/shadow_offset_x = 0
+theme_override_fonts/normal_font = ExtResource("2_pfnmi")
+theme_override_font_sizes/normal_font_size = 33
+text = "Hola, somos PixelField studio 
+Somos desarrolladores indies que estamos empezando en el desarrollo de videojuegos, esperamos que esta propuesta sea bien recibida"
+horizontal_alignment = 1
